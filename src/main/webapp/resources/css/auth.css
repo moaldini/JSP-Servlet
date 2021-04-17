@@ -1,0 +1,30 @@
+
+body {
+    display: flex;
+}
+.auth-form {
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px 20px;
+    align-content: center;
+}
+
+input[type="submit"] {
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    background-color: var(--background);
+    color: var(--secondary);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.auth-form label {
+    margin-bottom: 8px;
+}
+.auth-form input {
+    float: right;
+}

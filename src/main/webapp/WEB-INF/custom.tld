@@ -1,0 +1,19 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>
+        2.0
+    </jsp-version>
+    <uri>org.example.my-custom-tags</uri>
+    <short-name>My Custom Tags</short-name>
+    <tag>
+        <name>Product</name>
+        <tag-class>tag.ProductTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>product</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+
+    </tag>
+</taglib>

@@ -1,0 +1,29 @@
+nav {
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    right: 0;
+    height: 50px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #c1bebe;
+}
+
+ul.menu-bar {
+    display: block;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+ul.menu-bar > li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}

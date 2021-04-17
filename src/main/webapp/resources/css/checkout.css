@@ -1,0 +1,39 @@
+article {
+    margin-bottom: 15px;
+    width: max-content;
+}
+
+.checkout-form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.checkout-form input[type="submit"] {
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    background-color: var(--background);
+    color: var(--secondary);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.checkout-form label {
+    margin-bottom: 8px;
+}
+.checkout-form input {
+    float: right;
+}
+
+#total {
+    font-size: 1.3em;
+    color: var(--primary);
+}
+
+#total {
+    font-size: 1.5em;
+    letter-spacing: 1pt;
+    color: var(--secondary);
+    font-weight: bold;
+}

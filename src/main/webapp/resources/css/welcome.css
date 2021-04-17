@@ -1,0 +1,21 @@
+.product {
+    display: inline-block;
+    border: 1px dashed gray;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1#welcome {
+    width: max-content;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#about-us{
+    text-align: center;
+}
